@@ -1,0 +1,8 @@
+.phaseIndicator {
+  font-size: 1.2rem;
+  background-color: var(--color-secondary);
+  padding: 1rem;
+  border-radius: var(--radius-default);
+  display: inline-block;
+  color: var(--color-text);
+}

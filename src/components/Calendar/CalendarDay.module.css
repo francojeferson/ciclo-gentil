@@ -1,0 +1,49 @@
+/* Estilo base para o dia do calendário */
+.calendarDay {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-default);
+  margin: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.calendarDay:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+
+/* dia atual */
+.today {
+  border: 2px solid var(--color-primary);
+  font-weight: bold;
+}
+
+/* fases do ciclo */
+.phase-menstrual {
+  background-color: #f8d7da; /* Vermelho claro */
+  color: #721c24;
+}
+
+.phase-follicular {
+  background-color: #d4edda; /* Verde claro */
+  color: #155724;
+}
+
+.phase-ovulatory {
+  background-color: #bee5eb; /* Azul claro */
+  color: #0c5460;
+}
+
+.phase-luteal {
+  background-color: #fff3cd; /* Amarelo claro */
+  color: #856404;
+}
+
+/* Número do dia */
+.dayNumber {
+  font-size: 1.2rem;
+}

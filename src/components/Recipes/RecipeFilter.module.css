@@ -1,0 +1,31 @@
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-base);
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-default);
+  padding: 1.5rem;
+  max-width: 400px;
+  margin: 1rem auto;
+  box-shadow: 0 2px 4px var(--color-shadow);
+}
+
+.filterItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.container {
+  padding: 2rem;
+  background-color: var(--color-secondary);
+  border-radius: var(--radius-default);
+  box-shadow: 0 2px 4px var(--color-shadow);
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}

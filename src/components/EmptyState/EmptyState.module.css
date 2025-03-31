@@ -1,0 +1,16 @@
+.emptyState {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-default);
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 400px;
+  color: var(--color-text);
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px var(--color-shadow);
+}

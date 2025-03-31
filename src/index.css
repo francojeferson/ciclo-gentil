@@ -1,0 +1,57 @@
+:root {
+  /* modo light */
+  --color-primary: #646cff;
+  --color-secondary: #f9f9f9;
+  --color-bg: #ffffff;
+  --color-text: #213547;
+  --color-primary-hover: #535bf2;
+  --color-border: #ddd;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+
+  /* tamanhos e espaçamentos */
+  --font-base: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --spacing-base: 1rem;
+  --radius-default: 8px;
+}
+
+/* modo dark */
+body.dark {
+  --color-bg: #242424;
+  --color-text: rgba(255, 255, 255, 0.87);
+  --color-primary: #646cff;
+  --color-primary-hover: #535bf2;
+  --color-secondary: #1a1a1a;
+  --color-border: #444;
+  --color-shadow: rgba(0, 0, 0, 0.5);
+}
+
+/* global resets e tipografia */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-base);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* links */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+/* responsividade */
+@media (max-width: 768px) {
+  :root {
+    --spacing-base: 0.75rem;
+  }
+}

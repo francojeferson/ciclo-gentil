@@ -1,0 +1,28 @@
+.graphContainer {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.graphTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.graphTable th,
+.graphTable td {
+  border: 1px solid var(--color-border);
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.graphTable th {
+  background-color: var(--color-secondary);
+  font-weight: bold;
+}
+
+.noData {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,40 @@
+.legend {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: var(--spacing-base);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.indicator {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+/* Cores para cada fase */
+.phase-menstrual {
+  background-color: #f8d7da; /* vermelho claro */
+}
+
+.phase-follicular {
+  background-color: #d4edda; /* verde claro */
+}
+
+.phase-ovulatory {
+  background-color: #bee5eb; /* azul claro */
+}
+
+.phase-luteal {
+  background-color: #fff3cd; /* amarelo claro */
+}
+
+.label {
+  font-size: 0.9rem;
+}
